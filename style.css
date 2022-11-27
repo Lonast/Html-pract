@@ -260,41 +260,7 @@ section {
 .links li:hover {
   opacity: 70%;
 }
-@media screen and (max-width: 530px) {
-  .head a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .weapon {
-    min-height: 530px;
-  }
-  .head {
-    display: block;
-    position: relative;
-    height: 240px;
-    min-width: 500px;
-  }
-  .buttons {
-    float: none;
-  }
-  .container {
-    min-width: 500px;
-    height: 100%;
-  }
-  .card {
-    min-width: 415px;
-    font-size: 1.2rem;
-  }
-}
-@media screen and (min-width: 2200px) {
-  .top_img {
-    min-height: 700px;
-  }
-  .all {
-    top: 600px;
-  }
-}
+
 .description {
   margin-top: 6vw;
   width: 95%;
@@ -441,4 +407,42 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: rgb(190, 0, 190);
+}
+@media screen and (max-width: 530px) {
+  .head a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .weapon {
+    min-height: 530px;
+  }
+  .head {
+    display: block;
+    position: relative;
+    height: 240px;
+    min-width: 500px;
+  }
+  .buttons {
+    float: none;
+  }
+  .container {
+    min-width: 500px;
+    height: 100%;
+  }
+  .card {
+    min-width: 415px;
+    font-size: 1.2rem;
+  }
+  td {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 2200px) {
+  .top_img {
+    min-height: 700px;
+  }
+  .all {
+    top: 600px;
+  }
 }
