@@ -208,8 +208,10 @@ section {
     float: left;
   }
   .cards p {
+    margin: auto;
+    padding-top: auto;
     position: relative;
-    top: 5.5vw;
+    top: 42px;
   }
   .card:hover p {
     position: relative;
@@ -265,7 +267,7 @@ section {
     text-align: left;
   }
   .weapon {
-    min-height: 540px;
+    min-height: 530px;
   }
   .head {
     display: block;
