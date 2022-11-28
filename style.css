@@ -349,6 +349,7 @@ td img {
   .team .img p {
     border-radius: 0;
     width: 15.1vw;
+    min-width: 93px;
     transition: 0.3s;
     opacity: 0;
   }
